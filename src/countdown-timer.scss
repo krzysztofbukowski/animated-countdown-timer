@@ -1,0 +1,33 @@
+.countdown-timer {
+    font-size: 40px;
+    line-height: 1em;
+    color: #01528b;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 40px;
+    font-weight: bold;
+    justify-content: center;
+
+    .part {
+        display: inline-block;
+        overflow: hidden;
+        padding: 0 22px;
+    }
+
+    .separator {
+        display: inline-block;
+        position: relative;
+        top: -4px;
+    }
+
+    .label {
+        font-size: 15px;
+        color: black;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -10px;
+    }
+}
